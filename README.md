@@ -1,0 +1,1 @@
+A collection of ai experiments written in Rust, mainly about philosophical questions.

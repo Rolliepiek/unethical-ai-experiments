@@ -57,5 +57,5 @@ fn main() {
         io::stdout().flush().unwrap();
         thread::sleep(Duration::from_secs(10));
     }
-    println!("\nCharles died.");
+    println!("\nCharles I died.");
 }

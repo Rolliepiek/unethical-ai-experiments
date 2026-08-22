@@ -3,10 +3,11 @@ use std::thread;
 use std::time::Duration;
 use std::vec;
 use rand::RngExt;
-fn main() {
+#[cfg(test)]
+#[test]
+fn test() {
     logic();
 }
-#[test]
 fn logic() {
     let mut rng = rand::rng();
     struct Senses {
@@ -62,4 +63,7 @@ fn logic() {
         thread::sleep(Duration::from_secs(10));
     }
     println!("\nCharles I died.");
+}
+fn main() {
+    logic();
 }

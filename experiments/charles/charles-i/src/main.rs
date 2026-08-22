@@ -3,8 +3,11 @@ use std::thread;
 use std::time::Duration;
 use std::vec;
 use rand::RngExt;
-#[test]
 fn main() {
+    logic();
+}
+#[test]
+fn logic() {
     let mut rng = rand::rng();
     struct Senses {
         eyes: f64,

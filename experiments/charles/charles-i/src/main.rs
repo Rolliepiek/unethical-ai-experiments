@@ -3,6 +3,7 @@ use std::thread;
 use std::time::Duration;
 use std::vec;
 use rand::RngExt;
+#[test]
 fn main() {
     let mut rng = rand::rng();
     struct Senses {

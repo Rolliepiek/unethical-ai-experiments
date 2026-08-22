@@ -1,0 +1,1 @@
+Charles I is the first experiment of this repo and is an experiment about consiousness, it takes random inputs and multiplies them with random weights, combines them and outputs them. It is a very dumb experiment, but the main goal is to make people think about when we can call something consious. To try the experiment out run the main.exe file in this folder.

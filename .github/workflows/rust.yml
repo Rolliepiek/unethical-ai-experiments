@@ -17,6 +17,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build
-      run: cargo build -C experiments/charles --verbose
+      run: cargo build --manifest-path experiments/charles --verbose
     - name: Run tests
-      run: cargo test -C experiments/charles --verbose
+      run: cargo test --manifest-path experiments/charles --verbose

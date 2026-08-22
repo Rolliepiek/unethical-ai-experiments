@@ -40,7 +40,7 @@ fn logic() {
     };
     let mut temp: Vec<f64> = vec![0.0; 5];
     let mut emotions: f64;
-    let lifetime: i32 = rng.random_range(1..1000);
+    let lifetime: i32 = rng.random_range(1..100);
     for _i in 0..lifetime {
         input.eyes = rng.random_range(0.0..2.0);
         input.nose = rng.random_range(0.0..2.0);
